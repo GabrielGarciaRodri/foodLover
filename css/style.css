@@ -1,5 +1,5 @@
 @import url(variables.css);
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -72,9 +72,21 @@ p{
     color: white;
     font-weight: bold;
 }
-p, .btn{
+.btn{
     font-size: 20px;
+    background-color: var(--color-primary);
+    font-family: var(--font-family);
+    font-size: 30px;
+    color: var(--color-secundary);
+    border: none;
+    border-radius: 7px;
+    padding: 30px;
+    margin-top: 30px;
 }
 
+
+.secondBody{
+    background:var(--color-ternario);
+}
 
 
