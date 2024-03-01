@@ -194,9 +194,50 @@ nav #logo1{
 
 .imagenesBodyMenu{
     display: flex;
-    align-items: center;
     justify-content: flex-end;
     width: 100%;
     justify-content: space-between;
 }
 
+.imgFood0{
+    display: flex;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+.imgFood1{
+    display: flex;
+    justify-content: flex-end;
+    height: 910px;
+    width: 910px;
+}
+
+/* GALERIA DE IMAGENES */
+
+.galeria{
+    width: 100%;
+    height: 1236px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    margin-bottom: 80px;
+    color: var(--color-font);
+    font-family: var(--font-family);
+    font-size: 25px; 
+}
+
+.imagenesGaleria{
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.imagenesGaleria img{
+    display: flex;
+    align-items: center;
+    margin: 13px;
+}
